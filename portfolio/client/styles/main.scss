@@ -1,0 +1,47 @@
+
+
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: #363737;
+  height: 100%;
+  width: 100%;
+
+  #menu{
+    color: #3f4d8b;
+    font-family: serif;
+    font-weight: 800;
+    font-size: 50px;
+    z-index: 4;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+
+
+    li{
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+
+  #visualization{
+    background-image: url("img/v_about.jpg");
+    position: fixed;
+    width: 40%;
+    height: 100%;
+    top: 0px;
+    z-index: 2;
+    background-size: cover;
+  }
+
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+
